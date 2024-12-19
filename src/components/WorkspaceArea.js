@@ -59,7 +59,7 @@ export function WorkspaceArea({
       >
         {
           isWorkspaceAddVisible
-            ? <WorkspaceAdd />
+            ? <WorkspaceAdd isWorkspaceControlPanelVisible={isWorkspaceControlPanelVisible} />
             : <Workspace />
         }
         <ErrorDialog />
